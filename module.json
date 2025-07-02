@@ -13,8 +13,7 @@
     ],
     "compatibility": {
         "minimum": "12.327",
-        "verified": "12.327",
-        "maximum": "12"
+        "verified": "12.327"
     },
     "version": "1.67.0",
     "url": "https://github.com/reonZ/pf2e-token-hud",
