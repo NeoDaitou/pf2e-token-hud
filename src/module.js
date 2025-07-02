@@ -58,7 +58,7 @@ export async function enrichHTML(
 	const htmlStr = str?.trim();
 	if (!htmlStr) return "";
 
-	const enriched = await TextEditor.enrichHTML(htmlStr, {
+	const enriched = await foundry.applications.ux.TextEditor.enrichHTML(htmlStr, {
 		async: true,
 		secrets: isOwner,
 		rollData,
